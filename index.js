@@ -10,6 +10,7 @@ io.on('connection', (socket) => {
 
     //Sending to a specific client (the one who just connected in that case)
     //Socket client id is what we need to save to send to the client directly later
+    // Emit function take the event name as first param, and payload as second
     io.to(socket.client.id).emit("chat message", "Welcome!");
 
     socket.on('disconnect', () => {
