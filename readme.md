@@ -5,5 +5,6 @@ You need to install :
 - Npm
 
 To prepare:
-- run "npm install" to install all packages
-- run "node index.js"
+- run **npm install** in project folder to install all packages
+- run **node index.js** in project folder to start the server
+- Open a webbrowser and navigate to http://localhost:3000 (open multiple to chat).
